@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Curso de HTML5 - Menu Vertical</title>
+        
+        <style>
+			body {
+				font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+				font-size:13px;
+			}
+			
+			ul {
+				margin:0;padding:0;
+                width:200px;
+			}
+			
+			li {
+                list-style: nome /* isso é só para não aparecer marcadores*/
+			}
+			
+			li a {
+                display: block; /* isso é para o link ficar sobre toda a linha da palavra*/
+				text-decoration: none;/*retira o sublinhado do link*/
+                background-color:#89c; /*insere cor ao link*/
+                margin-bottom:1px; /*insere espaço sem personalização entre links*/
+                padding:5px 3px; /*Insere espaço na caixa do link*/
+                color:cornsilk
+
+            }
+			
+			li a:hover {
+                background-color:rgb(23, 61, 80) /*coloca cor diferente do setado quando o mouse estiver por cima do link*/
+			}
+        </style>
+        
+        </head>
+
+        <body>        
+            <ul>
+                <li><a href="http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1516-14392019000700209">Brasil</a></li>
+                <li><a href="http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1516-14392019000700209">Portugal</a></li>
+                <li><a href="http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1516-14392019000700209">Angola</a></li>
+                <li><a href="http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1516-14392019000700209">Moçambique</a></li>
+                <li><a href="http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1516-14392019000700209">Cabo Verde</a></li>
+            </ul>
+        </body>
+</html>
